@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.wrapper{
+	width: 420px;
+	background: gray;
+	color: white;
+	border: 2px solid gray;
+    border-radius: 31px;
+}
+.form_login_text{
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+.input_box{
+	width: 100%;
+	height: 40px;
+	border: 2px solid rgb(255, 255, 255); 
+	border-radius: 20px;
+	display: flex;
+	margin-top: 15px;
+}
+.wrapper h1{
+	text-align: center;
+	font-size: 36px;
+	margin: 30px 0;
+}
+.input_box input{
+width: 100%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none;
+
+}
+.img{
+	width: 50px;
+}
+.remember{
+	padding-left: 10px;
+}
+.button{
+	width: 90%;
+	height: 40px;
+	background: white;
+	border: 2px solid white;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20px;
+}
+.button:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s ease;
+}
+p{
+	padding-bottom: 10px;
+    padding-left: 10px;
+}
+input[type="text"]::placeholder {
+	color: rgb(255, 255, 255);
+	opacity: 1; 
+	padding-left: 10px;
+
+  }
+  input[type="password"]::placeholder {
+	color: rgb(255, 255, 255);
+	opacity: 1; 
+	padding-left: 10px;
+  }
+.button_text{
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	padding-top: 10px;
+	font-size: 15px;
+}
